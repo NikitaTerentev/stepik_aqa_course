@@ -9,7 +9,7 @@ try:
     link1 = "http://suninjuly.github.io/registration2.html"
     browser = webdriver.Chrome()
     browser.maximize_window()
-    browser.get(link)
+    browser.get(link1)
 
     # Код, который заполняет обязательные поля
     first_name = browser.find_element(By.XPATH, "//input[contains(@placeholder,'first')]").send_keys("Aboba")
